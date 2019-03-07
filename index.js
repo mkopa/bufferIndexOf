@@ -11,7 +11,7 @@ function bufferIndexOf(buffer, value, start = 0, encoding = UTF8) {
 
 }
 
-function arrayIndexOf(buffer, value, start = 0, encoding = UTF8) {
+function arrayIndexOf(array, value, start = 0, encoding = UTF8) {
 
 }
 
