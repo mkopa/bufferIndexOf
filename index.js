@@ -7,11 +7,11 @@ const LATIN1_ENC = 'latin1';   // A way of encoding the Buffer into a one-byte e
 const BINARY_ENC = LATIN1_ENC; // Alias for 'latin1'.
 const HEX_ENC = 'hex';         // Encode each byte as two hexadecimal characters.
 
-function bufferIndexOf(buffer, value, start = 0, encoding = UTF8) {
+function bufferIndexOf(buffer, value, start = 0, encoding = UTF8_ENC) {
 
 }
 
-function arrayIndexOf(array, value, start = 0, encoding = UTF8) {
+function arrayIndexOf(array, value, start = 0, encoding = UTF8_ENC) {
 
 }
 
